@@ -10,6 +10,7 @@ Run the following script:
 - .zshrc
 
 ## Tools
-* Homebrew
+* Homebrew: https://brew.sh/
 * Git
-* OhMyZsh
+* OhMyZsh: https://ohmyz.sh/
+

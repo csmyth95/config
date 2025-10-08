@@ -105,3 +105,8 @@ fi
 
 # Ensure auto-completions are enabled for CLI. Requires setup.sh to be run with brew install command.
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+## Aliases
+# Alias python command
+export PATH="$HOME/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/bin:$PATH"
+alias python="python3.14"

@@ -24,4 +24,11 @@ echo "NodeJS22 Installed"
 echo "Installing Claude Code"
 npm install -g @anthropic-ai/claude-code
 
+echo "Install Auto-completions"
+brew install zsh-autosuggestions
+
+echo "Copy custom zshrc file & source it"
+cp zshrc/.zshrc ~/.zshrc
+source ~/.zshrc
+
 echo "FINISHED"

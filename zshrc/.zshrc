@@ -102,3 +102,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Ensure auto-completions are enabled for CLI. Requires setup.sh to be run with brew install command.
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

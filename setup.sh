@@ -31,4 +31,10 @@ echo "Copy custom zshrc file & source it"
 cp zshrc/.zshrc ~/.zshrc
 source ~/.zshrc
 
+## Install uv
+brew install uv
+
+## Install latest python using uv
+uv python install
+
 echo "FINISHED"

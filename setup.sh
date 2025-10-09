@@ -37,4 +37,8 @@ brew install uv
 ## Install latest python using uv
 uv python install
 
+## Run Docker commands locally
+brew install colima
+brew install docker
+
 echo "FINISHED"

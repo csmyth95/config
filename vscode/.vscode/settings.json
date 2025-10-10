@@ -1,0 +1,33 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto",
+
+      // Git
+      "git.inputValidation": true,
+      "git.inputValidationSubjectLength": 50,
+      "git.inputValidationLength": 72
+    }
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/CVS": true
+  },
+  "hide-files.files": [],
+  "editor.formatOnSave": false,
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveWhenNoErrors": true,
+  "editor.codeActionsOnSave": {
+    // Trigger lint autofixing on explicit save (not on autosave)
+    "source.fixAll": "explicit"
+  },
+  // "eslint.rules.customizations": [
+  //   // Change the severity of all autofixable issues to `off`
+  //   { "rule": "*", "fixable": true, "severity": "off" }
+  // ]
+}
+

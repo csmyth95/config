@@ -35,7 +35,7 @@ source ~/.zshrc
 brew install uv
 
 ## Install latest python using uv
-uv python install
+uv python install 3.13
 
 ## Run Docker commands locally
 brew install colima

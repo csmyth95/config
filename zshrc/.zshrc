@@ -108,5 +108,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## Aliases
 # Alias python command
-export PATH="$HOME/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/bin:$PATH"
-alias python="python3.14"
+#export PATH="$HOME/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/bin:$PATH"
+export PATH="/Users/conor/.local/bin:$PATH"
+alias python="python3.13"
